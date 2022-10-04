@@ -1,0 +1,8 @@
+%dw 2.0
+
+type auto_0be47673_6a52_48c8_82dd_ba20136356e7_Input_Payload = {
+  paymentID: String, 
+  payerID: String, 
+  _?: Any
+} {"description": "Represents an approved Payment linked to the Payment requested and the Payer that made the payment by ID."}
+
